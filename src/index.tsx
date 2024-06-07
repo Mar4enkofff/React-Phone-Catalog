@@ -1,9 +1,30 @@
+import React from 'react';
 import { createRoot } from 'react-dom/client';
+// import ReactDOM from 'react-dom';
+import { HashRouter as Router } from 'react-router-dom';
+import { CartContextProvider } from './components/contexts/CartContextProvider';
+import { FavContextProvider } from './components/contexts/FavContextProvider';
+import App from './App';
 
-import 'bulma/css/bulma.css';
-import '@fortawesome/fontawesome-free/css/all.css';
-import './index.scss';
+// ReactDOM.render(
+//   <Router>
+//     <CartContextProvider>
+//       <FavContextProvider>
+//         <App />
+//       </FavContextProvider>
+//     </CartContextProvider>
+//   </Router>,
+//   document.getElementById('root')
+// );
 
-import { App } from './App';
+const root = createRoot(document.getElementById('root') as HTMLElement);
 
-createRoot(document.getElementById('root') as HTMLDivElement).render(<App />);
+root.render(
+  <Router>
+    <CartContextProvider>
+      <FavContextProvider>
+        <App />
+      </FavContextProvider>
+    </CartContextProvider>
+  </Router>
+);
