@@ -1,33 +1,37 @@
 This is a phone store website. This app is built using React, ReactHook, SCSS and JavaScript.
 
+
 Live Preview
 
 You can view a live demo of the website [HERE](https://mar4enkofff.github.io/react_phone-catalog/)
 
-The app was implemented according to [Figma design] (https://www.figma.com/file/sRuTEmg2RHdFVVkwjmmcK5/Phone-catalog-redesign?mode=dev)
+The app was implemented according to [Figma design](https://www.figma.com/file/sRuTEmg2RHdFVVkwjmmcK5/Phone-catalog-redesign?mode=dev)
 
-Built with
 
-React
+Built with:
 
-Custom hooks
+- React;
 
-(React-select, Bulma libraries)
+- Custom hooks;
 
-CSS3: Grid, Flexbox
+- (React-select, Bulma libraries);
 
-BEM methodology
+- CSS3: Grid, Flexbox;
 
-Preprocessors SCSS
+- BEM methodology;
 
-JavaScript
+- Preprocessors SCSS;
 
-Installation and Usage
+- JavaScript;
 
-Clone the repository
 
-Install dependencies: npm install
 
-Run the development server: npm start
+Installation and Usage:
 
-Open http://localhost:3000 in a web browser.
+- Clone the repository;
+
+- Install dependencies: npm install;
+
+- Run the development server: npm start;
+
+- Open http://localhost:3000 in a web browser.
